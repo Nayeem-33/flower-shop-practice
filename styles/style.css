@@ -10,6 +10,9 @@
     font-style: normal;
     color: #9D999A;
   }
+.uni-pera{
+  line-height: 25pt;
+}
 
 /* nav bar styles */
 .navbar{
@@ -85,7 +88,6 @@ a{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border: solid 2px green;
 }
 .head-img{
   /* width: 500px;
