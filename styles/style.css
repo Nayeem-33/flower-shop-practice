@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .inter-webfont{
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
     font-weight: 500;
     font-style: normal;
+    color: #9D999A;
   }
 
 /* nav bar styles */
@@ -16,7 +17,7 @@
 }
 .navdiv{
   display: flex;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -43,18 +44,58 @@ a{
   color: #E55473;
 }
 .btn-pri{
-  padding: 10px 20px;
+  padding: 10px 25px;
   background-color: #E55473;
   color: white;
   border: none;
   border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
 }
 .contact-btn{
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
 }
 /* navbar style ends */
 
+/* Head Section style starts */
+.head-section{
+  background-color: #FCEEF1;
+  padding-top: 100px;
+}
+.head-div{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+.head-s-div-1{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+.head-s-div-2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: solid 2px green;
+}
+.head-img{
+  /* width: 500px;
+  height: 600px; */
+  max-width: 100%;
+  height: auto;
+}
+.main-heading{
+  color: #272727;
+  font-size: 60px;
+  font-weight: 900;
+}
+/* Head Section style Ends */
