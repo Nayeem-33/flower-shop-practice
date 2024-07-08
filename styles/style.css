@@ -5,12 +5,56 @@
 }
 .inter-webfont{
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;
   }
+
 /* nav bar styles */
-
-.navdiv{
-
+.navbar{
+  background-color: #FCEEF1;
 }
+.navdiv{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 100px;
+  height: 40px;
+}
+nav>div{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #E55473;
+}
+.btn-pri{
+  padding: 10px 20px;
+  background-color: #E55473;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.contact-btn{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+}
+/* navbar style ends */
+
