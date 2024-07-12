@@ -68,7 +68,7 @@ a{
 
 /* Head Section style starts */
 .head-section{
-  background-color: #FCEEF1;
+  background-color: #fad6de;
   padding-top: 100px;
 }
 .head-div{
@@ -76,7 +76,7 @@ a{
   width: 60%;
   margin: 0 auto;
 }
-.head-s-div-1{
+.head-sec-div-1{
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ a{
   gap: 30px;
   padding-bottom: 100px;
 }
-.head-s-div-2{
+.head-sec-div-2{
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -107,9 +107,9 @@ a{
   width: 60%;
   margin: 0 auto;
 }
-.head-sec{
+.sec-heading{
   font-size: 40px;
-  font-weight: 600px;
+  font-weight: 800;
   color: #272727;
 }
 
@@ -140,14 +140,65 @@ a{
   justify-content: center;
   align-items: flex-end;
   border-radius: 50% 50% 0 0;
-  padding: 35px 35px 0px 35px;
+  padding: 60px 60px 0px 60px;
 }
 .card-text{
   display: flex;
+  justify-content: center;
   text-decoration: underline;
   color: #272727;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  padding: 15px 0;
-  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0;
 }
+/* featured section styles ends */
+
+/* Support section style starts */
+.image-container-2{
+  padding: 50px 20px;
+  background-color: #27272711;
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 5px;
+}
+.icon-text{
+  color: #272727;
+  padding: 20px 0;
+}
+/* Support section style ends */
+
+/* Discount section style starts */
+.discount-sec{
+  background-color: #fceef1;
+}
+.p-off{
+color: #E55473;
+}
+.image-container-3{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.discount-div-1{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  gap: 30px;
+  /* padding-bottom: 100px; */
+}
+.discount-div-2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* Discount section style ends */
+
+/* Insta section style starts */
+
+
+/* Insta section style ends */
+
